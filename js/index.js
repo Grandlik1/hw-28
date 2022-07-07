@@ -2,7 +2,7 @@ let calculator = {
     read: function(){
             let firstNumber = prompt()
             let secondNumber = prompt()
-        if(isNaN(firstNumber) && isNaN(secondNumber)  ){
+        if(isNaN(firstNumber) && isNaN(secondNumber)){
             alert("вы не ввели число")
         }else{
             firstNumber = Number(firstNumber)
